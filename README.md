@@ -22,3 +22,15 @@ Output:
 12
 13
 ```
+
+array = [[4, 5, 6], [2, 3, 4], [7, 5, 3]]
+
+for item in array:
+    for element in item:
+        x = 0;
+        while x < len(item):
+            x +=1
+            result = 0;
+            result+=element
+            print (result)
+
